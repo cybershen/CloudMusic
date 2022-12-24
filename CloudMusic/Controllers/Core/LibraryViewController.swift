@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LibraryViewController.swift
 //  CloudMusic
 //
 //  Created by Назар Жиленко on 24.12.2022.
@@ -7,13 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LibraryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .systemBackground
     }
-
-
 }
-
