@@ -31,6 +31,7 @@
 		DE5F2E80295721E6001A1864 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F2E7F295721E6001A1864 /* UserProfile.swift */; };
 		DE82800D295B36A2009A1AF0 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82800C295B36A2009A1AF0 /* AuthResponse.swift */; };
 		DE846303295852F500A73053 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE846302295852F500A73053 /* Extensions.swift */; };
+		DEC2E02929675E5E005D5BD1 /* RecommendationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2E02829675E5E005D5BD1 /* RecommendationsResponse.swift */; };
 		DECF712A2964822B00497A0A /* NewReleasesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF71292964822B00497A0A /* NewReleasesResponse.swift */; };
 		DECF712C296487FA00497A0A /* APIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF712B296487FA00497A0A /* APIImage.swift */; };
 		DECF712E2964A19100497A0A /* FeaturedPlaylistResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF712D2964A19100497A0A /* FeaturedPlaylistResponse.swift */; };
@@ -67,6 +68,7 @@
 		DE5F2E7F295721E6001A1864 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		DE82800C295B36A2009A1AF0 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		DE846302295852F500A73053 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DEC2E02829675E5E005D5BD1 /* RecommendationsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsResponse.swift; sourceTree = "<group>"; };
 		DECF71292964822B00497A0A /* NewReleasesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesResponse.swift; sourceTree = "<group>"; };
 		DECF712B296487FA00497A0A /* APIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIImage.swift; sourceTree = "<group>"; };
 		DECF712D2964A19100497A0A /* FeaturedPlaylistResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistResponse.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				DECF71292964822B00497A0A /* NewReleasesResponse.swift */,
 				DECF712D2964A19100497A0A /* FeaturedPlaylistResponse.swift */,
 				DECF712F2964AB5A00497A0A /* RecommendedGenresResponse.swift */,
+				DEC2E02829675E5E005D5BD1 /* RecommendationsResponse.swift */,
 				DECF712B296487FA00497A0A /* APIImage.swift */,
 			);
 			path = Models;
@@ -293,6 +296,7 @@
 				DE5F2E782957216C001A1864 /* HapticsManager.swift in Sources */,
 				DE82800D295B36A2009A1AF0 /* AuthResponse.swift in Sources */,
 				DECF712A2964822B00497A0A /* NewReleasesResponse.swift in Sources */,
+				DEC2E02929675E5E005D5BD1 /* RecommendationsResponse.swift in Sources */,
 				DECF712C296487FA00497A0A /* APIImage.swift in Sources */,
 				DE5F2E7C295721B9001A1864 /* AudioTrack.swift in Sources */,
 				DE5F2E4729571B81001A1864 /* HomeViewController.swift in Sources */,
