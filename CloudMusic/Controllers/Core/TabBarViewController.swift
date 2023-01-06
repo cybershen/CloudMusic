@@ -20,7 +20,7 @@ class TabBarViewController: UITabBarController {
         let vc2 = SearchViewController()
         let vc3 = LibraryViewController()
         
-        vc1.title = "Home"
+        vc1.title = "Browse"
         vc2.title = "Search"
         vc3.title = "Library"
         
@@ -45,7 +45,7 @@ class TabBarViewController: UITabBarController {
         nav1.navigationBar.prefersLargeTitles = true
         nav2.navigationBar.prefersLargeTitles = true
         nav3.navigationBar.prefersLargeTitles = true
-        
+                
         setViewControllers([nav1, nav2, nav3], animated: true)
     }
 }
