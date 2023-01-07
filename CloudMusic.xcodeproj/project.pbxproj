@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE36C5DB29698B59005C9EB7 /* NewReleasesCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE36C5DA29698B59005C9EB7 /* NewReleasesCellViewModel.swift */; };
 		DE5F2E4329571B81001A1864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F2E4229571B81001A1864 /* AppDelegate.swift */; };
 		DE5F2E4529571B81001A1864 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F2E4429571B81001A1864 /* SceneDelegate.swift */; };
 		DE5F2E4729571B81001A1864 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F2E4629571B81001A1864 /* HomeViewController.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE36C5DA29698B59005C9EB7 /* NewReleasesCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesCellViewModel.swift; sourceTree = "<group>"; };
 		DE5F2E3F29571B81001A1864 /* CloudMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5F2E4229571B81001A1864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE5F2E4429571B81001A1864 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 		DE5F2E5929571CCA001A1864 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				DE36C5DA29698B59005C9EB7 /* NewReleasesCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				DE5F2E6029571FC8001A1864 /* SearchViewController.swift in Sources */,
 				DE5F2E7A2957219D001A1864 /* Playlist.swift in Sources */,
 				DE5F2E74295720F8001A1864 /* AuthManager.swift in Sources */,
+				DE36C5DB29698B59005C9EB7 /* NewReleasesCellViewModel.swift in Sources */,
 				DE5F2E72295720CF001A1864 /* SearchResultsViewController.swift in Sources */,
 				DECF712E2964A19100497A0A /* FeaturedPlaylistResponse.swift in Sources */,
 				DE5F2E682957204B001A1864 /* WelcomeViewController.swift in Sources */,
