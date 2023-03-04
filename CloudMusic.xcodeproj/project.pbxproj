@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1FA55729B3D99B005A8A0B /* PlaylistHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1FA55629B3D99B005A8A0B /* PlaylistHeaderCollectionReusableView.swift */; };
+		DE1FA55929B3DF00005A8A0B /* PlaylistHeaderViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1FA55829B3DF00005A8A0B /* PlaylistHeaderViewViewModel.swift */; };
 		DE36C5DB29698B59005C9EB7 /* NewReleasesCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE36C5DA29698B59005C9EB7 /* NewReleasesCellViewModel.swift */; };
 		DE5F2E4329571B81001A1864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F2E4229571B81001A1864 /* AppDelegate.swift */; };
 		DE5F2E4529571B81001A1864 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F2E4429571B81001A1864 /* SceneDelegate.swift */; };
@@ -51,6 +53,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE1FA55629B3D99B005A8A0B /* PlaylistHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		DE1FA55829B3DF00005A8A0B /* PlaylistHeaderViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistHeaderViewViewModel.swift; sourceTree = "<group>"; };
 		DE36C5DA29698B59005C9EB7 /* NewReleasesCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesCellViewModel.swift; sourceTree = "<group>"; };
 		DE5F2E3F29571B81001A1864 /* CloudMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5F2E4229571B81001A1864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,9 +133,9 @@
 				DE5F2E5B29571CED001A1864 /* Resources */,
 				DE5F2E5A29571CD4001A1864 /* Managers */,
 				DE5F2E5629571CA5001A1864 /* Models */,
+				DE5F2E5729571CAB001A1864 /* Views */,
 				DE5F2E5929571CCA001A1864 /* ViewModels */,
 				DE5F2E5829571CB6001A1864 /* Controllers */,
-				DE5F2E5729571CAB001A1864 /* Views */,
 				DE5F2E5029571B83001A1864 /* Info.plist */,
 			);
 			path = CloudMusic;
@@ -162,6 +166,7 @@
 			children = (
 				DEC2E02A29684629005D5BD1 /* Browse */,
 				DE5F2E4D29571B83001A1864 /* LaunchScreen.storyboard */,
+				DE1FA55629B3D99B005A8A0B /* PlaylistHeaderCollectionReusableView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				DE36C5DA29698B59005C9EB7 /* NewReleasesCellViewModel.swift */,
 				DEE88ACA296D84A000151BE8 /* FeaturedPlaylistCellViewModel.swift */,
 				DEE88ACC296D869A00151BE8 /* RecommendedTrackCellViewModel.swift */,
+				DE1FA55829B3DF00005A8A0B /* PlaylistHeaderViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -221,8 +227,8 @@
 			isa = PBXGroup;
 			children = (
 				DE5F2E6529572033001A1864 /* AuthViewController.swift */,
-				DEE88ACE296DC28000151BE8 /* AlbumViewController.swift */,
 				DE5F2E672957204B001A1864 /* WelcomeViewController.swift */,
+				DEE88ACE296DC28000151BE8 /* AlbumViewController.swift */,
 				DE5F2E6929572067001A1864 /* SettingsViewController.swift */,
 				DE5F2E6B2957207D001A1864 /* ProfileViewController.swift */,
 				DE5F2E6D29572091001A1864 /* PlayerViewController.swift */,
@@ -328,6 +334,7 @@
 				DEE88ACD296D869A00151BE8 /* RecommendedTrackCellViewModel.swift in Sources */,
 				DE5F2E72295720CF001A1864 /* SearchResultsViewController.swift in Sources */,
 				DEE88ACF296DC28000151BE8 /* AlbumViewController.swift in Sources */,
+				DE1FA55929B3DF00005A8A0B /* PlaylistHeaderViewViewModel.swift in Sources */,
 				DEE88ACB296D84A000151BE8 /* FeaturedPlaylistCellViewModel.swift in Sources */,
 				DECF712E2964A19100497A0A /* FeaturedPlaylistResponse.swift in Sources */,
 				DE5F2E682957204B001A1864 /* WelcomeViewController.swift in Sources */,
@@ -346,6 +353,7 @@
 				DE5F2E6629572033001A1864 /* AuthViewController.swift in Sources */,
 				DE5F2E4329571B81001A1864 /* AppDelegate.swift in Sources */,
 				DE5F2E80295721E6001A1864 /* UserProfile.swift in Sources */,
+				DE1FA55729B3D99B005A8A0B /* PlaylistHeaderCollectionReusableView.swift in Sources */,
 				DE846303295852F500A73053 /* Extensions.swift in Sources */,
 				DE5F2E6229571FDF001A1864 /* LibraryViewController.swift in Sources */,
 				DE5F2E7E295721CE001A1864 /* Artist.swift in Sources */,
