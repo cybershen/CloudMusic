@@ -1,9 +1,9 @@
 //
-//  Extensions.swift
+//  UIView + Extentions.swift
 //  CloudMusic
 //
-//  Created by Назар Жиленко on 25.12.2022.
-// 
+//  Created by Назар Жиленко on 06.03.2023.
+//
 
 import UIKit
 
