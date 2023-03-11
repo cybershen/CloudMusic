@@ -66,6 +66,7 @@ final class PlaylistHeaderCollectionReusableView: UICollectionReusableView {
         addSubview(descriptionLabel)
         addSubview(ownerLabel)
         addSubview(playAllButton)
+            
         playAllButton.addTarget(self, action: #selector(didTapAll), for: .touchUpInside)
     }
     
@@ -81,7 +82,6 @@ final class PlaylistHeaderCollectionReusableView: UICollectionReusableView {
         super.layoutSubviews()
         let imageSize: CGFloat = height / 1.8
         imageView.frame = CGRect(x: (width-imageSize) / 2, y: 20, width: imageSize, height: imageSize)
-        
         nameLabel.frame = CGRect(x: 10, y: imageView.bottom, width: width-20, height: 44)
         descriptionLabel.frame = CGRect(x: 10, y: nameLabel.bottom, width: width-20, height: 44)
         ownerLabel.frame = CGRect(x: 10, y: descriptionLabel.bottom, width: width-20, height: 44)
